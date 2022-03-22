@@ -51,7 +51,7 @@ if (pathname === "/contato.html") {
   telefone.setAttribute("type", "tel");
   telefone.setAttribute("placeholder", "telefone");
   let textarea = document.querySelector("#formulario textarea");
-  form.insertBefore(telefone, textarea);
+  formulario.insertBefore(telefone, textarea);
 
   //3. O campo de mensagem está ultrapassando o tamanho do elemento pai. Podemos resolver adicionando o atributo box-sizing: border-box;
   textarea.style.boxSizing = "border-box";
@@ -77,7 +77,6 @@ if (pathname === "/contato.html") {
       Wally, 25
   </p>
 </div>
-
 <div class="depoimentos">
   <img src="/imagens/icon-jaden.png" width="80px" height="80px" alt="depoimentos da dindim">
   <p>
@@ -88,7 +87,6 @@ if (pathname === "/contato.html") {
       Jaden Smith, 23
   </p>
 </div>
-
 <div class="depoimentos">
   <img src="/imagens/icon-whoopi.png" width="80px" height="80px" alt="depoimentos da dindim">
   <p>
@@ -99,7 +97,6 @@ if (pathname === "/contato.html") {
       Whoopi Goldberg, 37
   </p>
 </div>
-
 <div class="depoimentos">
   <img src="/imagens/icon-jane.png" width="80px" height="80px" alt="depoimentos da dindim">
   <p>
